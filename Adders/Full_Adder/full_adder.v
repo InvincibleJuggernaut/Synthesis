@@ -4,6 +4,7 @@ module full_adder(A, B, Cin, S, Cout);
 
 	input A, B, Cin;
 	output S, Cout;
+	wire w1;
 	
 	assign Cout = (A & Cin) | (B & Cin) | (A & B);
 	
